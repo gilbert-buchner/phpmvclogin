@@ -1,0 +1,21 @@
+.row {
+	display: table;
+	width: 100%;
+	height: 30px;
+}
+
+.col {
+	display: table-cell;
+	width: 50%;
+}
+
+#login-controls {
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	padding: 50px;
+	width: 340px;
+}
+
+.error-text {
+	color: #f00;
+}

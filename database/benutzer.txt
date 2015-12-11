@@ -1,0 +1,7 @@
+create table benutzer (
+    id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    benutzername VARCHAR(255) NOT NULL,
+    kennwort VARCHAR(128) NOT NULL,
+    vorname VARCHAR(255),
+    nachname VARCHAR(255)
+    )
