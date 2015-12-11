@@ -8,23 +8,22 @@ Beispiel fÃ¼r eine einfache Login-Anwendung unter Verwendung von
 * MYSQL
 * MVC-Pattern
 
-# Model:
+## Model:
 * BenutzerModel
   * Benutzerdaten (benutzername, kennwort, vorname, nachname)
   * speichert neuen Benutzer in der DB
   * schaut ob Benutzer schon vorhanden ist
-  * Ã¼berprÃ¼ft das Kennwort
+  * Überprüft das Kennwort
 
-# View:
+## View:
 * Home
-
 Hier landet der Benutzer nach erfolgreicher Autentifizierung.
 * Login
 Hier landet der Benutzer wenn er sich noch nicht angemeldet hat.
   * anmelden
   * neu anmelden
 
-# Controller:
+## Controller:
 * BenutzerCtrl
 * HomeCtrl
 
