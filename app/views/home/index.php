@@ -1,6 +1,6 @@
 <html>
 <body>
-	<h1>phpmvclogin</h1>
+	<h1>PHP - MVC - Login</h1>
 	<h2>home</h2>
 	<div id="logout">
 		<p>
