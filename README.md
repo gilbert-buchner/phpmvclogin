@@ -2,7 +2,7 @@
 
 PHP - MVC - Login
 
-Beispiel fÃ¼r eine einfache Login-Anwendung unter Verwendung von 
+Beispiel für eine einfache Login-Anwendung unter Verwendung von 
 
 * PHP
 * MYSQL
