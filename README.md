@@ -2,21 +2,23 @@
 
 PHP - MVC - Login
 
-Einfaches Beispiel für eine PHP-MVC-Anwendung unter Verwendung von 
+Beispiel für eine einfache Login-Anwendung unter Verwendung von 
 
 * PHP
 * MYSQL
 * MVC-Pattern
 
-## Model:
+### Model:
 * BenutzerModel
 
-## Controller:
+### View:
+* Home
+* Login
+
+### Controller:
 * BenutzerCtrl
 * HomeCtrl
 
-## View:
-* Home
-* Login
+
 
 
