@@ -17,9 +17,9 @@ Beispiel für eine einfache Login-Anwendung unter Verwendung von
 
 # View:
 * Home
-  Hier landet der Benutzer nach erfolgreicher Autentifizierung.
+Hier landet der Benutzer nach erfolgreicher Autentifizierung.
 * Login
-  Hier landet der Benutzer wenn er sich noch nicht angemeldet hat.
+Hier landet der Benutzer wenn er sich noch nicht angemeldet hat.
   * anmelden
   * neu anmelden
 
