@@ -3,7 +3,7 @@ class BenutzerCtrl extends Controller {
 	function BenutzerCtrl() {
 	}
 	/**
-	 * Überprüfen ob der Benutzer schon angemeldet ist
+	 * ÃœberprÃ¼fen ob der Benutzer schon angemeldet ist
 	 * - ja -> dann gehts weiter auf home
 	 * - nein -> dann ab auf den Login-Schirm
 	 *
@@ -27,7 +27,7 @@ class BenutzerCtrl extends Controller {
 	}
 	/**
 	 * - neues BenutzerModel erzeugen
-	 * - übernehmen der Benutzerdaten aus dem Request
+	 * - Ã¼bernehmen der Benutzerdaten aus dem Request
 	 */
 	private function getBenutzerDataFromRequest() {
 		$benutzer = $this->model ( 'BenutzerModel' );
@@ -51,19 +51,19 @@ class BenutzerCtrl extends Controller {
 		$authentic = false;
 		if ("N" == $benutzer->anmeldeart) {
 			if (empty ( $_POST ['benutzername'] )) {
-				$benutzer->error = "Bitte Benutzername ausf&uuml;llen";
+				$benutzer->error = "Bitte geben Sie den Benutzernamen ein.";
 				return false;
 			}
 			if (empty ( $_POST ['vorname'] )) {
-				$benutzer->error = "Bitte Vornamen ausf&uuml;llen";
+				$benutzer->error = "Bitte geben Sie den Vornamen ein.";
 				return false;
 			}
 			if (empty ( $_POST ['nachname'] )) {
-				$benutzer->error = "Bitte Nachnamen ausf&uuml;llen";
+				$benutzer->error = "Bitte geben Sie den Nachnamen ein.";
 				return false;
 			}
 			if (empty ( $_POST ['kennwort'] ) || empty ( $_POST ['kennwort2'] )) {
-				$benutzer->error = "Bitte beide Kennwortfelder ausf&uuml;llen";
+				$benutzer->error = "Bitte geben Sie beide Kennwortfelder ein";
 				return false;
 			}
 			if ($_POST ['kennwort2'] != $_POST ['kennwort']) {
